@@ -1,6 +1,6 @@
 {
 	"name": "@themashcodee/react-ts-component-library",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "",
 	"scripts": {
 		"rollup": "rollup -c"

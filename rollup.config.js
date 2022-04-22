@@ -8,11 +8,12 @@ const packageJson = require("./package.json");
 
 export default [
     {
-        input: {
-            components: "src/components/index.ts",
-            icons: "src/icons/index.ts",
-            illustrations: "src/illustrations/index.ts",
-        },
+        input: "src/index.ts",
+        // input: {
+        //     components: "src/components/index.ts",
+        //     icons: "src/icons/index.ts",
+        //     illustrations: "src/illustrations/index.ts",
+        // },
         output: [
             {
                 file: packageJson.main,
